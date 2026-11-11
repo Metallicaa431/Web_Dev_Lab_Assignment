@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 1000;
+}
+
+.sticky-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.sticky-nav a:hover {
+    color: #3b82f6;
+}
+
+/* 2. Card Overlay */
+.card-container {
+    margin-top: 40px;
+}
+
+.card {
+    width: 300px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-image-box {
+    position: relative;
+    /* Anchor for the absolute overlay */
+    height: 180px;
+    background-color: #cbd5e1;
+    /* Placeholder image background */
+}
+
+.card-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(37, 99, 235, 0.9);
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.card-content {
+    padding: 15px;
+}

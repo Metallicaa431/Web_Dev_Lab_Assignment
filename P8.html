@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>P8 - Sticky Navbar & Card Overlay</title>
+    <link rel="stylesheet" href="styles-p8.css">
+</head>
+
+<body>
+
+    <nav class="sticky-nav">
+        <a href="#" class="logo">MyPortfolio</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main id="home" style="padding: 20px;">
+        <h1>CSS Positioning Lab</h1>
+        <p>Scroll down to see the navbar stick to the top, and check out the card overlay below.</p>
+
+        <section id="projects" class="card-container">
+            <div class="card">
+                <div class="card-image-box">
+                    <div class="card-overlay">Featured Project</div>
+                </div>
+                <div class="card-content">
+                    <h3>Positioning Showcase</h3>
+                    <p>Demonstrating sticky navigation and absolute overlays.</p>
+                </div>
+            </div>
+        </section>
+
+        <div style="height: 1000px; margin-top: 20px;">
+            <p>Scroll spacer to test sticky navigation behavior...</p>
+        </div>
+    </main>
+
+</body>
+
+</html>
