@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #f9fafb;
+}
+
+.portfolio-header,
+.portfolio-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.nav-menu,
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.portfolio-header a,
+.portfolio-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.content-area {
+    flex: 1;
+    padding: 40px 2rem;
+}
