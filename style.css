@@ -1,0 +1,32 @@
+/* ==========================================
+   P7: Simple Design Tokens & Typography
+   ========================================== */
+
+:root {
+    --primary-color: #2563eb;
+    --text-color: #333333;
+    --bg-color: #ffffff;
+    --font-stack: sans-serif;
+}
+
+body {
+    font-family: var(--font-stack);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
