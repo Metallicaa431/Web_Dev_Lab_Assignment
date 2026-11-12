@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #fff;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.newspaper-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sidebar,
+.main-article {
+    background: #f3f4f6;
+    padding: 20px;
+    border-radius: 6px;
+}
